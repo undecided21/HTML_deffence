@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    font-family: serif;
+}
+.navbar{
+    height: 50px;
+    background-color: beige; 
+    padding-bottom: 50px;
+} 
+.MMTEJ{
+    display: flex;
+    justify-content: end;
+}
+li, a{
+    text-decoration: none;
+}
+.card{
+    Padding:1px;
+    width: 365px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card_image{
+    padding: 2px;
+    border-radius: 30px;
+}
+.image{
+    width: 363px;
+    border-radius: 30px;
+    height: 200px;
+    
+}
+.contents{
+    padding:2px;
+    margin: 10px;
+}
+.contacts{
+    color: black;
+    font-size: 25px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: rgba(118, 205, 237, 0.526);
+    
+}

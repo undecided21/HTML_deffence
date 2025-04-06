@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    background-color: beige;
+    height: 50px;
+    padding-bottom: 50px;
+}
+.Home-page{
+    color: black;
+    text-decoration: none;
+}
+.MMTEJ{
+    display: flex;
+    justify-content: end;
+}
+.card{
+    width: 500px;
+    text-align: left;
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* shadow border effect */
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    border-radius: 30px;
+}
+.img{
+    cursor: pointer;
+    border-radius: 30px;
+}
+.contents{
+    text-align: end;
+}
+.card_image{
+    display: inline;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: rgba(118, 205, 237, 0.526);
+    
+}
